@@ -45,13 +45,13 @@ class GameLevel extends Phaser.Scene {
       this.load.image("coin2", "./assets/images/fire.png");
       this.load.image("wall", "./assets/images/wall.png");
       this.load.image("wallBtn", "./assets/images/wallbtn.png");
-      this.load.image("heart" , "../assets/images/heart.png")
-      this.load.image("door" , "../assets/images/door.png")
+      this.load.image("heart" , "./assets/images/heart.png")
+      this.load.image("door" , "./assets/images/door.png")
       
-      this.load.audio("wallOpen" , "../assets/audio/wallopen.mp3")
-      this.load.audio("wallClose" , "../assets/audio/wallclose.mp3")
-      this.load.audio("lose" , "../assets/audio/lose.mp3")
-      this.load.audio("gameOverSound" , "../assets/audio/gameover.mp3")
+      this.load.audio("wallOpen" , "./assets/audio/wallopen.mp3")
+      this.load.audio("wallClose" , "./assets/audio/wallclose.mp3")
+      this.load.audio("lose" , "./assets/audio/lose.mp3")
+      this.load.audio("gameOverSound" , "./assets/audio/gameover.mp3")
       
 
       this.load.tilemapCSV("tilemap1", "./assets/maps/LEVEL1.csv");
